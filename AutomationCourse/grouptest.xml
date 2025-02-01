@@ -1,0 +1,12 @@
+<suite name="grouptest">
+	<test name="test1">
+		<groups>
+			<run>
+				<exclude name="smoke"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNG.BasicTestcase"></class>
+		</classes>
+	</test>
+</suite>

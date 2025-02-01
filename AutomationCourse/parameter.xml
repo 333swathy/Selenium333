@@ -1,0 +1,9 @@
+<suite name="parameterisation">
+<test name="myTest">
+<parameter name="parameter1" value="10"></parameter>
+<parameter name="parameter2" value="swathy"></parameter>
+<classes>
+<class name="TestNG.ParameterTest"></class>
+</classes>
+</test>
+</suite>
